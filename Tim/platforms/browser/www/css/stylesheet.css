@@ -1,0 +1,1404 @@
+body {
+	background-color:#002080;
+	font-family: century gothic;
+	font-size: 100%;	
+}
+
+a {
+	text-decoration: none;
+}
+
+.prezziInteri{
+	text-decoration: line-through red;
+}
+
+/****************/
+/*----HEADER----*/
+/****************/
+.header {
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+.main{
+	width: 100%;
+	height: 100%;
+}
+
+.nav a{
+	color:#66FFFF;
+	font-size:13px;
+}
+#navlast {
+	font-weight: bold;
+}
+
+#botMenu{
+	position:absolute;
+	width:8%;
+	top: 20px;
+	left:5%;
+}
+
+#imglogo{
+	width:100%
+}
+
+/******************/
+/*----LANDMARK----*/
+/******************/
+.menu li {
+	list-style: none;
+}
+.menu ul {
+	list-style-type:none;
+}
+
+.landmark, .page {
+	float: left;
+	padding-top: 20px;
+}
+.landmark {
+	height: 100%;
+	
+}
+
+.land {
+	width: 184px;
+	height: 30px;
+	padding-top:10px;
+}
+
+.redland {
+	padding-left: 10px;
+}
+
+.redland a:link, .redland a:visited {
+	font-size:110%;
+	color: white;
+	background-color: #F50733;
+	margin-top: 4px;
+	padding-top:10px;
+	border: solid 2px white;
+	text-align: center;
+	display: block;
+	
+}
+.redland a:hover {
+	background-color: #F5585B;
+}
+
+
+.blueland {
+	padding-top: 95px;
+	padding-left:7px;
+}
+
+.blueland a:link, .blueland a:visited {
+	font-size:110%;
+	margin-top:4px;
+	color: white;
+	border: solid 2px white;
+	text-align: center;
+	background-color: #3366FF;
+	display: block;
+}
+
+.blueland a:hover {
+	background-color: #669EFF;
+}
+.submenus, .submenud {
+	display: none;
+	padding-top: 5px;
+	width : 188px;
+	height: 193px;
+	
+}
+
+.submenuw {
+	display: none;
+	padding-top: 5px;
+	width : 188px;
+	height: 121px;
+}
+
+.submenua {
+	display: none;
+	padding-top: 5px;
+	width : 188px;
+	height: 200px;
+}
+
+.submenus li, .submenud li, .submenua li {
+	line-height: 1;
+}
+.submenus a:link, .submenus a:visited, .submenud a:link, .submenud a:visited, .submenua a:link, .submenua a:visited {
+	padding-left: 2px;
+	font-size:15px;
+	background-color: #FF6854; 
+	color: black;
+	border: none;
+	text-align: left;
+}
+.submenus a:hover, .submenud a:hover, .submenua a:hover{
+	background-color: #FF6854;
+	color: black;
+	border: none;
+	text-align: left;
+}
+
+.submenuw a:link, .submenuw a:visited {
+	padding-left: 2px;
+	font-size:15px;
+	background-color: #99FFFF; 
+	color: black;
+	border: none;
+	text-align: left;
+}
+.submenuw a:hover {
+	background-color: #99FFFF;
+	color: black;
+	border: none;
+	text-align: left;
+}
+
+.submenud, .submenua, .submenus {
+	background-color: #FF6854;
+	color: black;
+}
+
+.submenuw {
+	background-color: #99FFFF;
+	color: black;
+}
+.subm{
+	font-weight: bold;
+}
+.notallowed a:hover {
+	cursor:not-allowed;
+}
+
+
+
+/**********************/
+/*----PAGE GENERIC----*/
+/**********************/
+.page {
+	width: 100%;
+	margin: 0 auto;
+	height: 100%;
+	margin-bottom: 150px;
+	margin-top:10px;
+	min-height: 400px;
+}
+
+
+
+
+/**************/
+/*----HOME----*/
+/**************/
+
+.home {
+	color:#fff;
+	width:100%;
+}
+
+#promoHome img, #timV img{
+	float: left;
+	position:relative;
+	margin-top:20px;
+	width: 46%;
+	height: 25%;
+	border: dotted 2px white;
+	background-color: #FF6854;
+}
+
+#timV img{
+	margin-left: 6.1%;
+}
+
+#newsH img{	
+	position:relative;
+	width: 100%;
+	height:20%;
+	margin-top:50px;
+	border: dotted 2px white;
+	background-color: #5faacf;
+}
+
+#assis img, #rich img{
+	float: left;
+	margin-top:10px;
+	border: dotted 2px white;
+	width: 46%;
+	height: 25%;
+}
+
+#rich img{
+	margin-left:6.1%;
+}
+
+
+/********************/
+/*----SMART LIFE----*/
+/********************/
+#scopri a:link, #scopri a:visited {
+	font-size:110%;
+	color: white;
+	background-color: #F50733;
+	margin-top: 4px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: solid 1px black;
+	text-align: center;
+	display: block;
+	
+}
+#scopri a:hover {
+	background-color: #F5585B;
+}
+
+#scopri {
+	padding-left: 350px;
+}
+
+.smartlifeHome {
+	color: white;
+}
+#sltitle, #tvent, #cef, #seb, #sap {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.tvent, .cef, .seb, .sap {
+	margin-top: 40px;
+}
+
+.cef, .sap {
+	padding-left: 120px;
+}
+
+	
+	
+
+
+/*********************/
+/*----DISPOSITIVI----*/
+/*********************/
+.smartphoneTelefoni, .tabletComputer, .modemNetworking, .tvSmartLiving{
+	position:relative;
+	background-color:#75A3FF;
+	width:720px;
+	height:300px;
+	margin-bottom:50px;
+}
+
+.dispositivi img{
+	margin-left:17px;
+	margin-top: -6px;
+}
+
+#tuttiSmartphone, #tuttiTablet, #tuttiModem, #tuttiTVSL{
+	margin-left:25px;
+}
+
+.botDisp a {
+	position:relative;
+	left:6px;
+	top:-45px;
+	float: left;
+	width: 150px;
+	height: 35px;
+	margin-left:17px;
+	padding-top:7px;
+	z-index:2;
+}
+
+.botDisp a:link, .botDisp a:visited {
+	font-size:110%;
+	color: white;
+	background-color: #F50733;	
+	border: solid 2px white;
+	text-align: center;
+	display: block;
+}
+
+.botDisp a:hover {
+	background-color: #F5585B;
+}
+
+.dispositivi p{
+	font-size: 24px;
+	color: red;
+	text-align: center;
+	padding-top: 10px;
+}
+
+
+/*******************/
+/*----CHI SIAMO----*/
+/*******************/
+
+.whoweare {
+	color:white;
+	font-size: 15px;
+	padding-left: 30px;
+}
+
+#wwavideo {
+	padding-left: 130px;
+	width: 456px;
+	height: 272px;
+	margin-top: 20px;
+	
+}
+
+.whoweare h3 {
+	font-size: 18px;
+}
+
+#meeting {
+	padding-left: 130px;
+	width: 479px;
+	height: 184px;
+	margin-top: 20px;
+}
+#meetingtxt {
+	padding-left: 170px;
+}
+
+#valori {
+	padding-top: 10px;
+}
+
+.val1, .val2, .val3, .val4 {
+	margin-top:20px;
+}
+#val1txt, #val2txt, #val3txt, #val4txt {
+	font-style: italic;
+}
+
+#val1img {
+	float: left;
+	padding-right: 20px;
+	padding-top: 20px;
+}
+
+#val2img{
+	float: right;
+	padding-right: 60px;
+	padding-top: 20px;
+}
+
+
+#val3img {
+	float: left;
+	padding-top: 20px;
+	padding-right: 20px;
+}
+
+#val4img {
+	float: right;
+	padding-top: 20px;
+	padding-right: 60px;
+}
+
+.whoweare p {
+	padding-top:20px;
+}
+#li14 {
+	font-weight:bold;
+}
+
+/********************/
+/*----TV ENT CAT----*/
+/********************/
+.tvEntCat {
+	color: white;
+	font-size: 16px;
+	margin-top: -10px;
+}
+.tvEntCat h3, #tetext {
+	font-size: 18px;
+}
+#teico {
+	float: left;
+	padding-right: 50px;
+	padding-left: 30px;
+}
+
+#teimg {
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.tvsertimv, .tvsertims, .musicser, .readingser, .gamingser {
+	margin-bottom:10px;
+}
+
+#tvislogo, #tskylogo, #tmuslogo, #trealogo, #tgamlogo, #tsealogo {
+	width: 200px;
+	height: auto;
+}
+
+#tvistxt, #tskytxt, #tmustxt, #treatxt, #tgamtxt, #tseatxt {
+	float: left;
+}
+
+#tvisimg {
+	width: 226px;
+	height: 138px;
+}
+#tskyimg {
+	width: 235px;
+	height: 142px;
+}
+#tmusimg, #treaimg, #tgamimg, #tseaimg, #tseaimg {
+	width: 190px;
+	height: 139px;
+	padding-left: 30px;
+}
+
+#tgamimg {
+	padding-left: 50px;
+}
+#tseaimg {
+	padding-left: 100px;
+}
+
+
+
+/**************************************************/
+/*----Smartphone Telefoni   -   TV SmartLiving----*/
+/**************************************************/
+.titPageDevices{
+	margin-top:10px;
+	color:white;
+	text-align:center;
+	font-size:25px;
+}
+
+.filtroST, .filtroTSL{
+	background-color: #D4FFFF;
+	height: 196px;
+	width: 690px;
+	padding-top:5px;
+	padding-left:35px;
+	padding-right:4px;
+	margin-top:7px;
+}
+
+.titolo_filtro{
+	margin-left:-20px;
+}
+
+.titDisp{
+	font-size:22px;
+	text-align:center;
+}
+.titTVESL{
+	font-size:18px;
+	text-align:center;
+	line-height: 0.2;
+}
+	
+.filtroST td, .filtroTSL td{
+	width:200px;
+}
+
+.smarttel{
+	margin-top:90px;
+}
+
+.tvsl{
+	margin-top:90px;
+}
+
+.box-dispos{
+	background-color:#3366FF;
+	width:350px;
+	height:250px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: white;
+	margin-top: 20px;
+	margin-right:20px;
+	float:left;
+	color:white;
+}
+
+.img-dispos{
+	margin-left:30px;
+	margin-top:20px;
+	width:100px;
+	height:200px;
+	float:left;
+}
+
+.img-TVESL{
+	margin-left:15px;
+	margin-top:20px;
+	width:130px;
+	height:230px;
+	float:left;
+}
+.TVESLcateg{
+	margin-top:25px;
+}
+.infoDisp, .infoDispPromo{
+	margin-left:200px;	
+}
+
+.infoDisp p, .infoDispPromo p{
+	line-height: 0.3;
+}
+
+.infoTVESL{	
+	margin-left:180px;	
+}
+
+.infoTVESL p{
+	line-height: 0.2;
+}
+
+.nomecateg{
+	font-size:15px;
+}
+
+.valcateg{
+	margin-left:20px;
+	font-size:15px;
+}
+
+.botST, .botTVESL{
+	font-size:14px;
+}
+
+.botST a{
+	position:relative;
+	float: left;
+	width: 120px;
+	height: 30px;
+	padding-top:7px;
+	left:-20px;
+	margin-top:10px;
+}
+.botTVESL a {
+	position:relative;
+	float: left;
+	width: 120px;
+	height: 30px;
+	padding-top:7px;
+	margin-top:10px;
+	left:17px;
+}
+
+.botST a:link, .botST a:visited, .botTVESL a:link, .botTVESL a:visited  {
+	font-size:110%;
+	color: white;
+	background-color: #F50733;	
+	border: solid 2px white;
+	text-align: center;
+	display: block;
+}
+
+.botST a:hover {
+	background-color: #F5585B;
+}
+
+#idBot_tvSL7{
+	padding-top:27px;
+}
+#idBot_tvSL8{
+	padding-top:10px;
+}
+
+
+.nessunDispos{
+	background-color:#3366FF;
+	width:725px;
+	height:190px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: white;
+	margin-top: 110px;
+	color:white;
+	text-align:center;
+	font-size:40px;
+	padding-top:60px;
+}
+
+
+/*****************************/
+/*----DISPOSITIVO SINGOLO----*/
+/*****************************/
+
+.titDispos{
+	font-size: 38px;
+	text-align:center;
+	color:white;
+}
+
+#videoD{
+	width:525px;
+	height:295px;
+	border:solid 1px white;
+	margin-left:92px;
+	margin-top:65px;
+}
+
+.imgBoxDispos img{
+	position:absolute;
+	z-index:-1;
+	width:780px;
+	height:390px;
+	margin-left:-30px;
+	margin-top:35px;
+}
+
+.imgDispos img{
+	position:absolute;
+	z-index:5;
+	width:125px;
+	height:250px;
+	margin-left:170px;
+	margin-top:95px;
+}
+.boxPrezzoDispos{
+	line-height: 0.5;
+	position:absolute;
+	top:850px;
+	left:950px;
+	font-size:18px;	
+}
+.prezzoTotDispos{
+	font-size:23px;
+	margin-left:-10px;
+}
+
+.prezzoScnDispos{
+	font-size:26px;
+	margin-left:-15px;
+}
+
+.boxColoreDispos{
+	position: absolute;
+	top: 960px;
+	left: 920px;
+	font-size: 20px;	
+}
+
+.schTecDispos{
+	color:white;
+	line-height: 2;
+	font-size:15px;
+	margin-top:300px;
+}
+.titDescrDispos{
+	position:absolute;
+	width:180px;
+	float:left;
+    top: 1179px;
+}
+.descrDispos{
+	position:relative;
+	margin-left:200px;
+	margin-top:444px;
+	width:500px;
+}
+
+.coloreDispos{
+	height:60px;	
+}
+
+.carousel-colors{	
+	position:absolute;
+	z-index: 7;
+	margin-left:-30px;
+	margin-top:0px;
+}
+
+.carousel-colors li {
+    width: 40px !important;
+    height: 40px !important;
+    margin: 1px !important;
+	display: inline-block;
+	border-radius: 100px;
+	
+}
+
+.carousel-img-colors{	
+	position:absolute;
+	z-index: 7;
+	margin-left:170px;
+	margin-top:350px;
+}
+
+.carousel-img-colors li {
+    width: 15px !important;
+    height: 15px !important;
+    border: 2px solid rgba(255, 0, 0, 1)!important;
+    margin: 1px !important;
+	display: inline-block;
+	border-radius: 100px;
+}
+
+#carImgC1{	
+	background-color: rgba(255, 0, 0, 0.9);
+}
+
+#carImgC2{	
+	background-color: rgba(255, 0, 0, 0.5);
+}
+
+#carColC1{
+	border: 3px solid #339999;
+}
+
+
+#frecciaSx{
+	position:absolute;
+	opacity:0.6;
+	margin-top:190px;
+	margin-left:70px;
+	height:50px;
+	width:50px;
+}
+
+#frecciaDx{
+	position:absolute;
+	margin-top:190px;
+	margin-left:350px;
+	height:50px;
+	width:50px;
+}
+
+#devicetitle{
+	color:white;
+}
+
+.imgServass{
+	float:left;
+	margin-left:70px;
+	padding-top:-10px;
+	margin-top:-15px;
+}
+
+#fieldsetdisp{
+	border-radius: 10px 10px 10px 10px;
+	position:relative;
+	height:200px;
+	width:700px;
+	margin-top:100px;	
+	margin-bottom:75px;
+}
+
+.botAcquista a{
+	padding-left: 10px;
+	width: 184px;
+	height: 30px;
+	padding-top:10px;
+}
+
+.botAcquista a:link, .botAcquista a:visited {
+	font-size:110%;
+	color: white;
+	background-color: #F50733;
+	margin-top: 4px;
+	padding-top:10px;
+	border: solid 2px white;
+	text-align: center;
+	display: block;
+	
+}
+.botAcquista a:hover {
+	background-color: #F5585B;
+}
+
+#confiPhoneLink {
+	position:absolute;
+	width:291px;
+	height:200px;	
+}
+#confConnLink{	
+	margin-left:280px;
+	width:291px;
+	height:200px;	
+}
+#deviceset a{
+	color:white;
+	font-size:13px;
+}
+#deviceset p{
+	position:absolute;
+	margin-left:80px;
+	margin-top:100px;
+	
+}
+
+
+
+/********************/
+/*----ASSISTENZA----*/
+/********************/
+
+.assistance {
+	color: white;
+	font-size: 18px;
+}
+
+.assistance div {
+	padding-bottom: 30px;
+}
+
+.assistance h3 {
+	font-size: 18px;
+}
+
+#tit {
+	font-style: italic;
+}
+
+#icoass {
+	float: left;
+	padding-right: 30px;
+	padding-left: 20px;
+}
+
+#asscat {
+	padding-left: 450px;
+}
+
+#asscat a {
+	color: white;
+}
+#asscat  a:link, #asscat a:visited{
+	width: 200px;
+	height: 50px;
+	background-color:#3366FF;
+	border: solid 1px white;
+	padding: 7px 20px 7px 20px;
+	
+}
+
+#asscat a:hover {
+	background-color: #669EFF;
+}
+
+
+
+/********************/
+/*----PROMOZIONI----*/
+/********************/
+
+.promo{
+	margin-top:90px;
+	margin-left:10px;
+}
+
+#imgPromo{
+	margin-top:10px;
+	width:720px;
+	height:200px;
+}
+
+.nomecateg{
+	margin-left:15px;
+}
+
+.valintcateg{
+	margin-top:5px;
+	margin-left:12px;
+}
+
+.valsconto{
+	margin-top:5px;
+	margin-left:10px;
+	font-size:25px;
+}
+
+.valscncateg{
+	margin-top:5px;
+	font-size:23px;
+}
+
+.infoDispPromo{
+	margin-top:-10px;
+}
+
+
+
+
+/*******************/
+/*----TimVision----*/
+/*******************/
+
+.timvision {
+	color: white;
+	font-size: 18px;
+}
+
+.timvision h3 {
+	font-size: 18px;
+}
+
+#logotv {
+	width: 382px;
+	height: auto;
+}
+
+#categoria p{
+	float: left;
+	line-height: 1;
+}
+
+#catimg, #catimg2 {
+	width: 154px;
+	height: auto;
+	padding-left: 30px;
+}
+
+#tit {
+	padding-top: 20px;
+}
+
+#catimg2 {
+	padding-left: 45px;
+}
+
+#dispset {
+	border-radius: 10px 10px 10px 10px;
+	border-color: white;
+}
+
+#dispset a {
+	color: white;
+}
+
+#attiva a{
+	color: black;
+}
+
+#attiva a:link, #attiva a:visited {
+	width: 234px;
+	height: 40px;
+	padding: 7px 20px 7px 20px;
+	background-color: #99FFFF;
+	border: solid 2px #3366FF;
+}
+
+#attiva a:hover {
+	background-color:#3366FF;
+	color: white;
+}
+
+
+
+#dispvis1 {
+	float: left;
+	margin-left: 240px;
+	margin-right: 80px;
+}
+
+/****************************/
+/*----ActRules_TimVision----*/
+/****************************/
+.actrules {
+	color: white;
+	font-size: 16px;
+}
+.actrules a {
+	color: white;
+	font-size: 15px;
+}
+
+#costiset {
+	border-radius: 10px 10px 10px 10px;
+	border-color: white;
+	background-color: #FF8175;
+	
+}
+
+#costiset p {
+	color: black;
+	font-size: 13px;
+
+}
+
+#p1, #p2, #p3, #p5, #p6, #p7 {
+	float:left;
+}
+
+#p1, #p5 {
+	padding-left: 20px;
+}
+#p2 {
+	padding-left: 40px;
+}
+#p6 {
+	padding-left: 85px;
+}
+#p3 {
+	padding-left: 150px;
+}
+#p7 {
+	padding-left: 120px;
+}
+#p4 {
+	padding-left: 200px;
+}
+#p8 {
+	padding-left: 80px;
+}
+
+#p4, #p8 {
+	float: left;
+
+}
+
+#costoind, #costoindf {
+	background-color: #F50733;
+	border: solid 1px black;
+	float: left;
+	text-align: center;
+	padding-top: 7px;
+	width: 175px;
+	height: 36px;
+}
+
+#costoindf {
+	margin-left: 13px;
+}
+
+#back {
+	font-size: 14px;
+	font-style: underline;
+}
+
+#costiset legend {
+	font-size: 14px;
+}
+
+#clickactive a:link, #clickactive a:visited{
+	width: 223px;
+	height: 36px;
+	background-color: #F50733;
+	border: solid 1px black;
+	padding: 7px 15px 7px 15px;
+	
+}
+#clickactive a:hover {
+	background-color: #FF8175;
+}
+
+#qui {
+	text-decoration: underline;
+}
+
+.ita {
+	font-style: italic;
+}
+
+/***************************/
+/*----FormReg_TimVision----*/
+/***************************/
+
+.formreg {
+	color: white;
+	font-size: 16px;
+}
+.formreg a {
+	color: white;
+}
+
+.formreg p {
+	line-height: 1;
+}
+
+.formreg > .logovis, .actrules > .logovis  {
+	float: left;
+	
+}
+#voice {
+	margin-left: 10px;
+	margin-right: 20px;
+	width: 200px;
+}
+
+#voice1 {
+	margin-left: 30px;
+	margin-right: 20px;
+	width: 200px;
+}
+
+#voice2 {
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 200px;
+}
+
+#voice3 {
+	margin-left: 10px;
+	margin-right: 20px;
+	width: 30px;
+}
+
+.conferma a:link, .conferma a:visited {
+	padding: 7px 50px 7px 50px;
+	background-color: #F50733;
+	border: solid 1px black;
+	width: 223px;
+	height: 36px;
+}
+
+.conferma a:hover {
+	background-color: #F5585B;
+}
+
+#dati {
+	font-style: italic;
+}
+
+#rad1 {
+	margin-left: 50px;
+}
+
+#rad2 {
+	margin-left: 365px;
+}
+
+/**************************/
+/*----Supporto tecnico----*/
+/**************************/
+
+.supportoconf {
+	font-size: 16px;
+	color: white;
+}
+
+.supportoconf button {
+	background: #ccf5ff;
+    border: 1px solid #3366FF;
+	width: 100px;
+	height: 30px;
+	margin-top: 10px;
+}
+.supportoconf button:hover {
+	background: #66e0ff;
+    border: 1px solid #3366FF;
+	width: 100px;
+	height: 30px;
+}
+.supportoconf fieldset {
+	width: 315px;
+	border-radius: 10px 10px 10px 10px;
+	border-color: white;
+	margin-bottom: 20px;
+	margin-right: 50px;
+}
+
+.supportoconf legend {
+	font-weight: bold;
+}
+.supportoconf h5 {
+	font-style: italic;
+	margin: 7px 2px 7px 2px;
+	font-size: 14px;
+}
+.sxsc {
+	float: left;
+}
+
+.supportoconf a.expand {
+    font-size: 10px;
+    font-weight: bold;
+    color: black;
+    background: #ccf5ff;
+    border: 1px solid #3366FF;
+    border-radius: 3px;
+    padding: 2px 5px;
+    margin-top: 5px;
+    display: inline-block;
+    min-width: 80px;
+}
+
+.unseen {
+	display: none;
+}
+.supportoconf a {
+	color: white;
+	font-size: 13px;
+}
+.supportoconf p {
+	line-height: 1;
+	margin: 5px;
+	text-decoration: underline;
+}
+
+
+/***************************/
+/*----Pagina assistenza----*/
+/***************************/
+
+.asspage {
+	font-size: 16px;
+	color: white;
+}
+.asspage fieldset {
+	border-radius: 10px;
+}
+.asspage a {
+	color: white;
+}
+
+
+.asspage h3 {
+	line-height: 1;
+}
+
+.asspage img {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#assdispf img {
+	width: 104px;
+	height: auto;
+	
+}
+
+#assdispf {
+	float: left;
+	margin-right: 30px;
+	text-align: center;
+}
+.dispf {
+	padding-left: 45px;
+}
+
+/***************/
+/*---- BUY ----*/
+/***************/
+.boxBuy{
+	color:white;
+}
+
+.boxDispBuy{
+	width:700px;
+	height:250px;
+	border: solid 2px white;
+	background-color:#3366FF;
+}
+
+.specifDispBuy{
+	position:relative;
+	margin-left:200px;
+	margin-top:-230px;
+}
+
+.boxPrzBuy{
+	position:relative;
+	margin-left:500px;
+	margin-top:-165px;	
+}
+
+.condizAcquisto{
+	margin-top:50px;
+	font-size:13px;
+}
+
+.radioConferma{
+	position:center;
+}
+
+#imgCircuito{
+	position:absolute;
+	width: 280px;
+	height: 75px;
+	margin-top:16px;
+	margin-left:400px;
+}
+
+.datiPagBuy{
+	display: inline-block;
+}
+
+.circ{
+	width:150px;
+	margin-left:41px;
+	text-align:center;
+}
+#numcarta{
+	margin-left:73px;
+}
+#codsic{
+	margin-left:34px;
+}
+#titolare{
+	margin-left:77px;
+}
+.scadenza{
+	margin-left:58px;
+	text-align:center;
+}
+#imgDispBuy{
+	margin-top:25px;
+	margin-left:30px;
+	width:100px;
+	height:200px
+}
+
+#nomeDispBuy{
+	font-size:20px;
+}
+#przScnBuy{
+	word-spacing: 25px;
+}
+
+.carousel-colorsBuy{	
+	position:relative;
+	z-index: 7;
+	margin-left:-30px;
+	margin-top:0px;
+}
+
+.carousel-colorsBuy li {
+    width: 40px !important;
+    height: 40px !important;
+    margin: 1px !important;
+	display: inline-block;
+	border-radius: 100px;
+	
+}
+
+.boxColoreDisposBuy{
+	position:relative;
+}
+
+#carColC1Buy{
+	border: 3px solid #339999;
+}
+
+.botDispBuy a {
+	float: left;
+	width: 150px;
+	height: 35px;
+	padding-top:7px;
+	z-index:2;
+}
+
+.botDispBuy a:link, .botDispBuy a:visited {
+	font-size:110%;
+	color: white;
+	background-color: #F50733;	
+	border: solid 2px white;
+	text-align: center;
+	display: block;
+}
+
+.botDispBuy a:hover {
+	background-color: #F5585B;
+}
