@@ -2,35 +2,28 @@
     <!--Da qui inizia il codice del filtro-->
     
 <p class="titPageDevices">TV E SMART LIVING</p>
-<div class="filtroTSL">
-<p class="titolo_filtro">FILTRA PER:</p>
-<table class="tabFiltroTSL">
-  <tr>
-    <td>CATEGORIA</td>
-    <td>PREZZO</td>
-	<td>MARCA</td>
-  </tr>
-  <tr>
-    <td><input type="radio" onclick="funzioneFiltroTSL()" name="cat2" class="checkCatTSL" id="ckTSL1" >Tutti</td>
-    <td><input type="checkbox" onclick="funzioneFiltroTSL()" class="checkPrzTSL" id="ckTSL5" >< 100 €</td>
-	<td><input type="checkbox" onclick="funzioneFiltroTSL()" class="checkMrcTSL" id="ckTSL9">D-Link</td>
-  </tr>
-  <tr>
-    <td><input type="radio" onclick="funzioneFiltroTSL()" name="cat2" class="checkCatTSL" id="ckTSL2" >Smart-TV</td>
-    <td><input type="checkbox" onclick="funzioneFiltroTSL()" class="checkPrzTSL" id="ckTSL6">100 - 300 €</td>
-	<td><input type="checkbox" onclick="funzioneFiltroTSL()" class="checkMrcTSL" id="ckTSL10" >Samsung</td>
-  </tr>
-   <tr>
-    <td><input type="radio" onclick="funzioneFiltroTSL()" name="cat2" class="checkCatTSL" id="ckTSL3" >Smartwatch</td>
-    <td><input type="checkbox" onclick="funzioneFiltroTSL()" class="checkPrzTSL" id="ckTSL7">300 - 400 €</td>	
-	<td></td>
-  </tr>
-   <tr>
-    <td><input type="radio" onclick="funzioneFiltroTSL()" name="cat2" class="checkCatTSL" id="ckTSL4" >Altro</td>
-    <td><input type="checkbox" onclick="funzioneFiltroTSL()" class="checkPrzTSL" id="ckTSL8">> 400 €</td>
-	<td></td>
-  </tr>
-</table>
+
+<button class="filtraPer" type="button">FILTRA PER:</button><br>
+<div class="filtroTSL">	
+	<p>CATEGORIA<br>
+		<input type="radio" onclick="funzioneFiltroTSL()" name="cat2" class="checkCatTSL" id="ckTSL1" >Tutti<br>
+		<input type="radio" onclick="funzioneFiltroTSL()" name="cat2" class="checkCatTSL" id="ckTSL2" >Smart-TV<br>
+		<input type="radio" onclick="funzioneFiltroTSL()" name="cat2" class="checkCatTSL" id="ckTSL3" >Smartwatch<br>
+		<input type="radio" onclick="funzioneFiltroTSL()" name="cat2" class="checkCatTSL" id="ckTSL4" >Altro<br>
+	</p>
+	
+	<p>PREZZO<br>
+		<input type="checkbox" onclick="funzioneFiltroTSL()" class="checkPrzTSL" id="ckTSL5" >< 100 €<br>
+		<input type="checkbox" onclick="funzioneFiltroTSL()" class="checkPrzTSL" id="ckTSL6" >100 - 300 €<br>
+		<input type="checkbox" onclick="funzioneFiltroTSL()" class="checkPrzTSL" id="ckTSL7" >300 - 400 €<br>
+		<input type="checkbox" onclick="funzioneFiltroTSL()" class="checkPrzTSL" id="ckTSL8" >> 400 €<br>
+	</p>
+	
+	<p>MARCA<br>
+		<input type="checkbox" onclick="funzioneFiltroTSL()" class="checkMrcTSL" id="ckTSL9" >D-Link<br>
+		<input type="checkbox" onclick="funzioneFiltroTSL()" class="checkMrcTSL" id="ckTSL10" >Samsung<br>
+	</p>
+		
 </div>
 
 <div class="tvsl">

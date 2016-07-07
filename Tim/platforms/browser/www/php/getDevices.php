@@ -27,7 +27,7 @@ else {
 	
     if(isset($_POST['cont'])) $cont = $_POST['cont'];
     else $cont = ""; //debug
-    
+	
     switch($type) {
         case "1":{
 		$query = "SELECT * FROM dispos WHERE tipo_d LIKE 'ST' $cont";

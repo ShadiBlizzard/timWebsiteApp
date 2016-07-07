@@ -67,7 +67,7 @@ function getSmartETel(info, cont) {
 			
 				if(json.length==0){
 					content='<div class="nessunDispos"><p>NESSUN DISPOSITIVO TROVATO</p></div>';
-				}
+				}else{
 				for(var i=0;i<json.length;i++){
                     content+='<div class="box-dispos"><img class="img-dispos" src="'+json[i].img1_d+'">';
                     content+='<p class="titDisp">'+json[i].nome_d+'</p>';
@@ -86,6 +86,7 @@ function getSmartETel(info, cont) {
 					content+='<div class="botST">';
 					content+='<span class='+json[i].classBot_d+'"><a href='+json[i].hrefBot_d+' onclick="idDevicePressed('+json[i].id_d+');">SCOPRI</a></span>';
                     content+='</div></div></div>';
+				}
 				}
 				
 				
@@ -119,7 +120,7 @@ function getTVESL(info, cont){
 			
 				if(json.length==0){
 					content='<div class="nessunDispos"><p>NESSUN DISPOSITIVO TROVATO</p></div>';
-				}
+				}else{
 				for(var i=0;i<json.length;i++){
 					
 					content+='<div class="box-dispos"><img class="img-TVESL" src="'+json[i].img1_d+'">';
@@ -164,6 +165,7 @@ function getTVESL(info, cont){
 					content+='<span class='+json[i].classBot_d+'><a href='+json[i].hrefBot_d+' onclick="idDevicePressed('+json[i].id_d+');">SCOPRI</a></span>';
 					content+='</div></div></div>';
 				}
+				}
             // based on id I will fill the related divs
                     $(".tvsl").html(content);
 					
@@ -184,7 +186,6 @@ function getDevice(info, flag, flag2) {
         data: {id:info, flag:flag, flag2:flag2},
         success: function(response) {
             var json=JSON.parse(response);
-			var content1='<iframe id="videoD" src='+json[0].video_d+' frameborder="0" allowfullscreen></iframe>';
 			var content2='';
 			var content4=json[0].prz_scn_d+' €';
 			var content5='';	
@@ -268,7 +269,6 @@ function getDevice(info, flag, flag2) {
 		
 			// based on id I will fill the related divs
 					$(".titDispos").html(json[0].nome_d);
-                    $(".videoDispos").html(content1);
                     $(".imgDispos").html(content2);
 					if(json[0].prz_int_d!=''){
 						var content3='<p class="prezziInteri">'+json[0].prz_int_d+' €</p>';

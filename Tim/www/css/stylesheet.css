@@ -218,12 +218,12 @@ a {
 }
 
 #timV img{
-	margin-left: 6.1%;
+	margin-left: 5.6%;
 }
 
 #newsH img{	
 	position:relative;
-	width: 100%;
+	width: 98.8%;
 	height:20%;
 	margin-top:50px;
 	border: dotted 2px white;
@@ -239,7 +239,7 @@ a {
 }
 
 #rich img{
-	margin-left:6.1%;
+	margin-left:5.6%;
 }
 
 
@@ -292,29 +292,26 @@ a {
 .smartphoneTelefoni, .tabletComputer, .modemNetworking, .tvSmartLiving{
 	position:relative;
 	background-color:#75A3FF;
-	width:720px;
-	height:300px;
-	margin-bottom:50px;
+	width:40%;
+	height:40%;
+	margin-bottom:5%;
+	padding-bottom:20px;
+	margin-left:5%;
+	float:left;
 }
 
-.dispositivi img{
-	margin-left:17px;
-	margin-top: -6px;
+.tabletComputer, .tvSmartLiving{
+	margin-left:10%;
 }
 
-#tuttiSmartphone, #tuttiTablet, #tuttiModem, #tuttiTVSL{
-	margin-left:25px;
-}
+
 
 .botDisp a {
 	position:relative;
-	left:6px;
-	top:-45px;
-	float: left;
-	width: 150px;
-	height: 35px;
-	margin-left:17px;
-	padding-top:7px;
+	width: 80%;
+	height: 10%;
+	margin-top:4px;
+	margin:4px auto;
 	z-index:2;
 }
 
@@ -332,8 +329,8 @@ a {
 }
 
 .dispositivi p{
-	font-size: 24px;
-	color: red;
+	font-size: 80%;
+	color: white;
 	text-align: center;
 	padding-top: 10px;
 }
@@ -479,21 +476,39 @@ a {
 	margin-top:10px;
 	color:white;
 	text-align:center;
-	font-size:25px;
+	font-size:120%;
 }
 
 .filtroST, .filtroTSL{
 	background-color: #D4FFFF;
-	height: 196px;
-	width: 690px;
+	width: 60%;
 	padding-top:5px;
-	padding-left:35px;
-	padding-right:4px;
 	margin-top:7px;
+	margin:0 auto;
+	padding-top:20px;
+	padding-bottom:20px;
 }
 
-.titolo_filtro{
-	margin-left:-20px;
+.filtroST p, .filtroTSL p{
+	width:120px;
+	margin:10px auto;
+	font-size:100%;
+}
+
+.filtraPer {
+	padding-left:7px;
+	width:40%;
+	margin:0 auto;	
+	background-color: #3366FF;;
+	color: white;
+	border: solid 2px white;
+	display: block;
+	text-align: center;
+	font-size:110%;
+}
+
+.filtraPer:hover {
+	background-color: #669EFF;
 }
 
 .titDisp{
@@ -505,14 +520,6 @@ a {
 	text-align:center;
 	line-height: 0.2;
 }
-	
-.filtroST td, .filtroTSL td{
-	width:200px;
-}
-
-.smarttel{
-	margin-top:90px;
-}
 
 .tvsl{
 	margin-top:90px;
@@ -520,14 +527,12 @@ a {
 
 .box-dispos{
 	background-color:#3366FF;
-	width:350px;
+	width:340px;
 	height:250px;
 	border-style: solid;
 	border-width: 2px;
 	border-color: white;
-	margin-top: 20px;
-	margin-right:20px;
-	float:left;
+	margin: 10px auto;
 	color:white;
 }
 
@@ -620,16 +625,19 @@ a {
 
 .nessunDispos{
 	background-color:#3366FF;
-	width:725px;
-	height:190px;
+	width:99%;
+	height:250px;
 	border-style: solid;
 	border-width: 2px;
 	border-color: white;
-	margin-top: 110px;
 	color:white;
 	text-align:center;
-	font-size:40px;
-	padding-top:60px;
+	font-size:150%;
+	margin-top: 10px;
+}
+
+.nessunDispos p{
+	margin-top:100px;
 }
 
 
@@ -654,19 +662,18 @@ a {
 .imgBoxDispos img{
 	position:absolute;
 	z-index:-1;
-	width:780px;
-	height:390px;
-	margin-left:-30px;
-	margin-top:35px;
+	width:100%;
+	height:500px;
+	margin-top:10px;
 }
 
+
 .imgDispos img{
-	position:absolute;
+	position:relative;
 	z-index:5;
 	width:125px;
 	height:250px;
-	margin-left:170px;
-	margin-top:95px;
+	margin-left:auto;
 }
 .boxPrezzoDispos{
 	line-height: 0.5;
@@ -716,7 +723,7 @@ a {
 }
 
 .carousel-colors{	
-	position:absolute;
+	position:relative;
 	z-index: 7;
 	margin-left:-30px;
 	margin-top:0px;
@@ -732,7 +739,7 @@ a {
 }
 
 .carousel-img-colors{	
-	position:absolute;
+	position:relative;
 	z-index: 7;
 	margin-left:170px;
 	margin-top:350px;
@@ -761,7 +768,7 @@ a {
 
 
 #frecciaSx{
-	position:absolute;
+	position:relative;
 	opacity:0.6;
 	margin-top:190px;
 	margin-left:70px;
@@ -770,7 +777,7 @@ a {
 }
 
 #frecciaDx{
-	position:absolute;
+	position:relative;
 	margin-top:190px;
 	margin-left:350px;
 	height:50px;
