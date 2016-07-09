@@ -189,6 +189,7 @@ function getDevice(info, flag, flag2) {
 			var content2='';
 			var content4=json[0].prz_scn_d+' €';
 			var content5='';	
+			var content6='<h2>SCHEDA TECNICA</h2><br>'+json[0].descr_d+'';	
 			
 				console.log(json[0].nome_d);   
 				
@@ -276,8 +277,7 @@ function getDevice(info, flag, flag2) {
 					}
                     $(".prezzoScnDispos").html(content4);
                     $("#carColC1").css("background-color", json[0].colore1_d);
-					$(".titDescrDispos").html(json[0].titDescr_d);
-                    $(".descrDispos").html(json[0].descr_d);
+                    $(".descrDispos").html(content6);
 					
                     $("#devicetitle").html(json[0].devicetitle);					
                     $("#deviceset").html(json[0].servass1);
@@ -319,7 +319,7 @@ function getPromotions(info, cont) {
 					content+='<div class="valsconto">'+json[i].sconto_d+' %</div>';
 					content+='<div class="valscncateg">'+json[i].prz_scn_d+' €</div>';
 					content+='<div class="botST">';
-					content+='<span class='+json[i].classBot_d+'><a href='+json[i].hrefBot_d+'>SCOPRI</a></span>';
+					content+='<span class='+json[i].classBot_d+'><a href='+json[i].hrefBot_d+' onclick="idDevicePressed('+json[i].id_d+');">SCOPRI</a></span>';
                     content+='</div></div></div>';
 				}
 				
@@ -547,9 +547,9 @@ function getBuy(info){
 				$(".nav").html('<a href="index.html">HOME> </a> <a href="#devices">DISPOSITIVI> </a><a href="#tvSmartLiving"> TV e Smart Living> </a><a href="#device">'+json[0].nome_d+'</a><a id="navlast" href="#buy">> Acquisto</a>');
 			}
 			
+			content+='<p id="nomeDispBuy"> '+json[0].nome_d+'</p>';
 			content+='<img id="imgDispBuy" src="'+json[0].img1_d+'">';
 			content+='<div class="specifDispBuy">';
-			content+='<p id="nomeDispBuy" '+json[0].nome_d+'>';
 			content+='<p>Specifiche: </p>';
 			if(json[0].memoria1_d!=''){
 				content+='<p> Memoria: '+json[0].memoria1_d+'';
@@ -571,7 +571,7 @@ function getBuy(info){
 				content+='<p> Caratteristiche: '+json[0].caratt_tvSL+'</p>';
 			}
 			content+='</div>';
-			content+='<div class= "boxPrzBuy">';
+			content+='<div class= "boxPrzBuy"><hr id="hrbuy">';
 			content+='<p id="przScnBuy">Prezzo:<br>';
 			if(json[0].prz_int_d!=''){
 				content+=''+json[0].prz_int_d+'€ ';
