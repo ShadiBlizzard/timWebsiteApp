@@ -233,6 +233,11 @@ document.getElementById("botMenu").onclick=function(){
 	$(".page").toggle();
 }
 
+function closeMenu(){
+	$(".landmark").hide();
+	$(".page").show();
+}
+
 				
 function manager(args) {
 
@@ -354,8 +359,7 @@ function manager(args) {
 					$(".filtraPer").click(function(){
 						$(".filtroST").toggle();
 						$(".smarttel").toggle();
-					});
-					
+					});					
 					
 						switch (localStorage.getItem("selection")){
 							case "1":{
