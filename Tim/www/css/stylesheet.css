@@ -1229,6 +1229,8 @@ a {
 .supportoconf {
 	font-size: 16px;
 	color: white;
+	width: 70%;
+	margin: auto;
 }
 
 .supportoconf button {
@@ -1245,8 +1247,8 @@ a {
 	height: 30px;
 }
 .supportoconf fieldset {
-	width: 315px;
-	border-radius: 10px 10px 10px 10px;
+	width: 70%;
+	border-radius: 2% 2% 2% 2%;
 	border-color: white;
 	margin-bottom: 20px;
 	margin-right: 50px;
@@ -1260,22 +1262,7 @@ a {
 	margin: 7px 2px 7px 2px;
 	font-size: 14px;
 }
-.sxsc {
-	float: left;
-}
 
-.supportoconf a.expand {
-    font-size: 10px;
-    font-weight: bold;
-    color: black;
-    background: #ccf5ff;
-    border: 1px solid #3366FF;
-    border-radius: 3px;
-    padding: 2px 5px;
-    margin-top: 5px;
-    display: inline-block;
-    min-width: 80px;
-}
 
 .unseen {
 	display: none;

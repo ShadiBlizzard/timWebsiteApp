@@ -658,10 +658,13 @@ function getAss(info, callback) {
 
 }
 
-$(".expand").click(function() {
-	$(this).closest(".subsection").find(".unseen").slideToggle();
+function aclick(id) {
+	var cat='.apri'+id;
+	$(cat).closest(".subset").slideToggle();
+	$(this).hide();
 	
-});
+	
+}
 
 function bclick(id) {
 	var cat='.expand'+id;
