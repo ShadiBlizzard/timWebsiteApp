@@ -3,6 +3,9 @@ $(function primary() {
     // load the header
     $(".header").load( "header.html");
 	
+	$(".landmark").load("landmark.html");
+	$(".landmark").hide();
+	
 	// default behaviour: load homepage
 	$(".page").load( "home.html", function() {
 		

@@ -4,7 +4,7 @@
 <h2>ACQUISTA</h2>
 <div class="boxDispBuy"></div>
 <div class="boxColoreDisposBuy">
-<p><i>Scegli il colore</i></p>
+<p class="titCenter"><i>Scegli il colore</i></p>
 		<ol class="carousel-colorsBuy">
 			<a><li id="carColC1Buy"></li></a>	
 			<a><li id="carColC2Buy"></li></a>
@@ -13,22 +13,22 @@
 	
 	
 <div class="boxDatiSpBuy">
-	<p><i>Dati di spedizione</i></p>
+	<p class="titCenter"><i>Dati di spedizione</i></p>
 <form>
-Nome: <input type="text" name="nome" id="voice1" required></input> 
-<span id="formr"> Cognome: <input type="text" name="cognome" id="voice" required></input></span> <br><br>
-Codice fiscale: <input type="text" name="cod" id="voice" required></input><br><br>
-<span id="formr"> Citt&agrave: <input type="text" name="city" id="voice" required></input></span>
-<span id="formr"> Provincia: <input type="text" name="provincia" id="voice3" required></input></span>
-<span id="formr"> Cap: <input type="text" name="cap" id="voice" onkeydown="return onKeyNumeric(event);"required></input></span><br><br>
-<span id="formr"> Indirizzo: <input type="text" name="indirizzo" id="voice" required></input></span>
-<span id="formr"> N. Civico: <input type="text" name="civico" id="voice" required></input></span><br><br><br>
-<p><i>Contatti</i></p>
-<span id="formr"> E-mail: <input type="email" name="email" id="voice"></input></span>
-<span id="formr"> Telefono: <input type="text" name="telefono" id="voice"></input></span>
+Nome: <input type="text" name="nome" id="voice20" required></input> 
+<span id="formr"><br>Cognome: <input type="text" name="cognome" id="voice20" required></input></span> <br>
+Codice fiscale: <input type="text" name="cod" id="voice20" required></input><br><br>
+<span id="formr"> Citt&agrave: <input type="text" name="city" id="voice20" required></input></span><br>
+<span id="formr"> Provincia: <input type="text" name="provincia" id="voice20" required></input></span><br>
+<span id="formr"> Cap: <input type="text" name="cap" id="voice20" onkeydown="return onKeyNumeric(event);"required></input></span><br>
+<span id="formr"> Indirizzo: <input type="text" name="indirizzo" id="voice20" required></input></span><br>
+<span id="formr"> N. Civico: <input type="text" name="civico" id="voice20" required></input></span><br><br>
+<p class="titCenter"><i>Contatti</i></p>
+<span id="formr"> E-mail: <input type="email" name="email" id="voice20"></input></span><br>
+<span id="formr"> Telefono: <input type="text" name="telefono" id="voice20"></input></span>
 </form><br>
 </div>
-<p><img src="icons/confregalo.png"><i>Confezione regalo?<i><input type="checkbox"></p>
+<p><img src="icons/confregalo.png"><i>Confezione regalo?</i><input type="checkbox"></p>
 <div class="condizAcquisto">
 <p>Scegliendo ACCETTO dichiaro di aver letto e di accettare le informazioni precontrattuali relative<br>
 all'acquisto di un prodotto prima della conclusione del presente contratto. Dichiaro inoltre di aver<br>
@@ -40,25 +40,31 @@ scheda descrittiva e nella Guida all'Acquisto) e l'informativa della privacy<br>
 </div>
 <br><br>
 <div class="datiPagam">
-	<i>Dati pagamento<i>
+	<i>Dati pagamento</i>
 	<p><input type="radio" name="radioPagam">Paypal <input type="radio" name="radioPagam" checked> Carta di credito</p><br>
 
 	
 <div class="datiPagBuy">
-<img class="datiPagBuy" id="imgCircuito" src="immagini/circuito.jpg">
 <form>
 <p>Seleziona circuito:
-<select class="circ" name="circ">
+<select id="voice21" name="circ">
 <option value="paypal" selected>Paypal</option> <!-- valore di default-->
 <option value="visa">Visa</option>
 <option value="mastercard">Mastercard</option>
 </select></p><br>
-<span id="formr">Numero carta:<input type="numcarta" name="numcarta" id="numcarta" required></input></span> <br><br>
-Codice di sicurezza:<input type="text" name="codsic" id="codsic" required></input><br><br>
-<span id="formr">Titolare carta:<input type="text" name="titolare" id="titolare" required></input></span><br>
+<span id="formr">Numero carta:<input type="numcarta" name="numcarta" id="voice21" required></input></span> <br><br>
+Codice di sicurezza:<input type="text" name="codsic" id="voice21" required></input><br><br>
+<span id="formr">Titolare carta:<input type="text" name="titolare" id="voice21" required></input></span><br>
 
 <p>Data scadenza:
-<select class="scadenza" name="scadenza">
+<select id="scadenza2" name="scadenza">
+<option value="2017">2017</option> <!-- valore di default-->
+<option value="2018">2018</option>
+<option value="2019">2019</option>
+<option value="2020">2020</option>
+</select>
+
+<select id="scadenza1" name="scadenza">
 <option value="gennaio">Gennaio</option>
 <option value="febbraio">Febbraio</option>
 <option value="marzo">Marzo</option>
@@ -72,12 +78,7 @@ Codice di sicurezza:<input type="text" name="codsic" id="codsic" required></inpu
 <option value="novembre">Novembre</option>
 <option value="dicembre">Dicembre</option>
 </select>
-<select name="scadenza">
-<option value="2017">2017</option> <!-- valore di default-->
-<option value="2018">2018</option>
-<option value="2019">2019</option>
-<option value="2020">2020</option>
-</select>
+
 </p>
 </form><br>
 

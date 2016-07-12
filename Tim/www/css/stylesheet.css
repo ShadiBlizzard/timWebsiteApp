@@ -50,6 +50,11 @@ a {
 /******************/
 /*----LANDMARK----*/
 /******************/
+.menu{
+	width:205px;
+	margin:0 auto;
+}
+	
 .menu li {
 	list-style: none;
 }
@@ -63,7 +68,7 @@ a {
 }
 .landmark {
 	height: 100%;
-	
+	width:100%;	
 }
 
 .land {
@@ -93,7 +98,6 @@ a {
 
 
 .blueland {
-	padding-top: 95px;
 	padding-left:7px;
 }
 
@@ -490,9 +494,7 @@ a {
 .filtroST, .filtroTSL{
 	background-color: #D4FFFF;
 	width: 60%;
-	padding-top:5px;
-	margin-top:7px;
-	margin:0 auto;
+	margin:7px auto 10px auto;
 	padding-top:20px;
 	padding-bottom:20px;
 }
@@ -529,10 +531,6 @@ a {
 	line-height: 0.2;
 }
 
-.tvsl{
-	margin-top:90px;
-}
-
 .box-dispos{
 	background-color:#3366FF;
 	width:340px;
@@ -540,7 +538,7 @@ a {
 	border-style: solid;
 	border-width: 2px;
 	border-color: white;
-	margin: 10px auto;
+	margin: 0 auto 20px auto;
 	color:white;
 }
 
@@ -653,88 +651,92 @@ a {
 /*----DISPOSITIVO SINGOLO----*/
 /*****************************/
 
+.dispPage{
+	position:relative;
+	z-index:1;
+	width:100%;
+}
+
 .titDispos{
 	font-size: 38px;
 	text-align:center;
 	color:white;
 }
 
-#videoD{
-	width:525px;
-	height:295px;
-	border:solid 1px white;
-	margin-left:92px;
-	margin-top:65px;
-}
-
-.imgBoxDispos img{
-	position:absolute;
+.imgBoxDispos{
+	position:relative;
 	z-index:-1;
 	width:100%;
-	height:500px;
+	height:600px;
 	margin-top:10px;
+	background-color:white;
 }
 
+
+.imgDispos{
+	width:125px;
+	height:250px;
+	margin:0 auto;
+}
 
 .imgDispos img{
 	position:relative;
 	z-index:5;
 	width:125px;
 	height:250px;
-	margin-left:auto;
 }
+	
 .boxPrezzoDispos{
-	line-height: 0.5;
-	position:absolute;
-	top:850px;
-	left:950px;
+	position:relative;
+	width:100px;
 	font-size:18px;	
+	margin:60px auto;
+	line-height: 0.5;
+	text-align:center;
+	padding-top:20px;
 }
+
 .prezzoTotDispos{
 	font-size:23px;
-	margin-left:-10px;
 }
 
 .prezzoScnDispos{
-	font-size:26px;
-	margin-left:-15px;
+	font-size:25px;
 }
 
 .boxColoreDispos{
-	position: absolute;
-	top: 960px;
-	left: 920px;
+	position: relative;
 	font-size: 20px;	
+	width:135px;
+	margin:0 auto;
 }
 
 .schTecDispos{
 	color:white;
 	line-height: 2;
 	font-size:15px;
-	margin-top:300px;
-}
-.titDescrDispos{
-	position:absolute;
-	width:180px;
-	float:left;
-    top: 1179px;
+	margin-top:50px;
 }
 .descrDispos{
 	position:relative;
-	margin-left:200px;
-	margin-top:444px;
-	width:500px;
+	margin-top:60px;
+	color:white;
+	text-align:center;
 }
 
 .coloreDispos{
 	height:60px;	
 }
 
-.carousel-colors{	
+.boxNumDispos{
+	width:90px;
+	margin:0 auto;
+}
+
+.carousel-colors{
 	position:relative;
 	z-index: 7;
-	margin-left:-30px;
-	margin-top:0px;
+	margin-left:-20px;
 }
 
 .carousel-colors li {
@@ -749,8 +751,7 @@ a {
 .carousel-img-colors{	
 	position:relative;
 	z-index: 7;
-	margin-left:170px;
-	margin-top:350px;
+	padding-left: 24px;
 }
 
 .carousel-img-colors li {
@@ -776,47 +777,107 @@ a {
 
 
 #frecciaSx{
-	position:relative;
+	position:absolute;
 	opacity:0.6;
-	margin-top:190px;
-	margin-left:70px;
 	height:50px;
 	width:50px;
+	margin-left:5%;
+	margin-top:160px;
 }
 
 #frecciaDx{
-	position:relative;
-	margin-top:190px;
-	margin-left:350px;
+	position:absolute;
 	height:50px;
 	width:50px;
+	margin-left:80%;
+	margin-top:160px;
+
 }
 
 #devicetitle{
 	color:white;
 }
 
+
+
 .imgServass{
+	position:absolute;
 	float:left;
-	margin-left:70px;
-	padding-top:-10px;
-	margin-top:-15px;
+	margin: 0 auto;
+	top: 40px;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+.imgServsl{
+	position:relative;
+	float:left;
+	width:100%;
+	margin: 0 auto;
+	top:30px;
+	left: 0;
+	bottom: 0;
+	right: 0;
 }
 
 #fieldsetdisp{
 	border-radius: 10px 10px 10px 10px;
 	position:relative;
 	height:200px;
-	width:700px;
 	margin-top:100px;	
-	margin-bottom:75px;
+	margin-bottom:55px;
 }
+#confiPhoneLink {
+	position:absolute;
+	width:35%;
+	height:200px;
+	margin-left:10%;	
+	text-align:center;
+}
+
+#confTimVLink{
+	position:absolute;	
+	width:35%;
+	height:200px;
+	margin-left:55%;
+	text-align:center;
+}
+
+#confTimSLink {
+	position:absolute;
+	width:35%;
+	height:200px;
+	margin-left:10%;	
+	text-align:center;
+}
+
+#confConnLink{
+	position:absolute;	
+	width:35%;
+	height:200px;
+	margin-left:55%;
+	text-align:center;
+}
+
+#deviceset a{
+	color:white;
+	font-size:13px;
+}
+#deviceset p{
+	margin-top:100px;
+	
+}
+
+
 
 .botAcquista a{
 	padding-left: 10px;
 	width: 184px;
 	height: 30px;
 	padding-top:10px;
+	margin:20px auto;
+	
 }
 
 .botAcquista a:link, .botAcquista a:visited {
@@ -830,29 +891,9 @@ a {
 	display: block;
 	
 }
+
 .botAcquista a:hover {
 	background-color: #F5585B;
-}
-
-#confiPhoneLink {
-	position:absolute;
-	width:291px;
-	height:200px;	
-}
-#confConnLink{	
-	margin-left:280px;
-	width:291px;
-	height:200px;	
-}
-#deviceset a{
-	color:white;
-	font-size:13px;
-}
-#deviceset p{
-	position:absolute;
-	margin-left:80px;
-	margin-top:100px;
-	
 }
 
 
@@ -911,14 +952,13 @@ a {
 /********************/
 
 .promo{
-	margin-top:90px;
-	margin-left:10px;
+	margin-top:60px;
 }
 
 #imgPromo{
 	margin-top:10px;
-	width:720px;
-	height:200px;
+	width:100%;
+	height:100px;
 }
 
 .nomecateg{
@@ -1299,25 +1339,33 @@ a {
 /***************/
 .boxBuy{
 	color:white;
+	
+}
+
+.boxBuy h2{
+	text-align:center;
 }
 
 .boxDispBuy{
-	width:700px;
-	height:250px;
 	border: solid 2px white;
 	background-color:#3366FF;
+	text-align:center;
+}
+
+.boxDispBuy img{
+	position:relative
 }
 
 .specifDispBuy{
 	position:relative;
-	margin-left:200px;
-	margin-top:-230px;
+}
+
+#hrbuy{
+	color:white;
 }
 
 .boxPrzBuy{
 	position:relative;
-	margin-left:500px;
-	margin-top:-165px;	
 }
 
 .condizAcquisto{
@@ -1329,41 +1377,17 @@ a {
 	position:center;
 }
 
-#imgCircuito{
-	position:absolute;
-	width: 280px;
-	height: 75px;
-	margin-top:16px;
-	margin-left:400px;
-}
 
 .datiPagBuy{
-	display: inline-block;
 }
 
-.circ{
-	width:150px;
-	margin-left:41px;
-	text-align:center;
-}
-#numcarta{
-	margin-left:73px;
-}
-#codsic{
-	margin-left:34px;
-}
-#titolare{
-	margin-left:77px;
-}
-.scadenza{
-	margin-left:58px;
-	text-align:center;
-}
+
 #imgDispBuy{
-	margin-top:25px;
-	margin-left:30px;
 	width:100px;
-	height:200px
+	height:200px;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
 }
 
 #nomeDispBuy{
@@ -1373,11 +1397,17 @@ a {
 	word-spacing: 25px;
 }
 
+.titCenter{
+	text-align:center;
+}
+
 .carousel-colorsBuy{	
 	position:relative;
 	z-index: 7;
-	margin-left:-30px;
-	margin-top:0px;
+	width: 100px;
+	margin: 0 auto;
+	left: -30px;
+	right: 0;
 }
 
 .carousel-colorsBuy li {
@@ -1397,12 +1427,56 @@ a {
 	border: 3px solid #339999;
 }
 
+.boxDatiSpBuy {
+    line-height: 2;
+}
+
+#voice20 {
+	margin-left: 10px;
+	margin-right: 40px;
+	width: 50%;
+	float:right;
+	margin-top:3px;
+	text-align:center;
+}
+
+#voice21 {
+	margin-left: 10px;
+	margin-right: 40px;
+	width: 30%;
+	float:right;
+	margin-top:3px;
+	text-align:center;
+}
+
+#scadenza1{
+	width: 25%;
+	float:right;
+	margin-top:3px;
+	text-align:center;
+}
+
+#scadenza2{
+	width: 20%;
+	float:right;
+	margin-top:3px;
+	text-align:center;
+	margin-right: 40px;
+}
+
+.botDispBuy{
+	width:150px;
+	margin:0 auto;
+}
+
 .botDispBuy a {
 	float: left;
 	width: 150px;
-	height: 35px;
-	padding-top:7px;
+	height: 30px;
+	padding-top:10px;
 	z-index:2;
+	margin:20px auto;
+	
 }
 
 .botDispBuy a:link, .botDispBuy a:visited {

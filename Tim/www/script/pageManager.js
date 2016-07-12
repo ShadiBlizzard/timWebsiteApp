@@ -227,6 +227,17 @@ function idDevicePressed(id){
 function selectDevice(num){
 			localStorage.setItem("selection", num);
 }
+
+document.getElementById("botMenu").onclick=function(){
+	$(".landmark").toggle();
+	$(".page").toggle();
+}
+
+function closeMenu(){
+	$(".landmark").hide();
+	$(".page").show();
+}
+
 				
 function manager(args) {
 
@@ -239,6 +250,8 @@ function manager(args) {
 
 
     // enable script for calls to external php
+
+	
     $.getScript('script/ajaxCalls.js', function(){
         // load the page dinamycally inside the template
 
@@ -256,8 +269,8 @@ function manager(args) {
 					$(".nav").html('<a href="index.html" id="navlast">HOME </a> ');	
 					
 					localStorage.setItem("selection",1);
-					find('.owl-next').html('<i class="fa fa-angle-right"></i>');
-					
+					find('.owl-next').html('<i class="fa fa-angle-right"></i>');				
+							
 					break;
 				}
 				
@@ -346,8 +359,7 @@ function manager(args) {
 					$(".filtraPer").click(function(){
 						$(".filtroST").toggle();
 						$(".smarttel").toggle();
-					});
-					
+					});					
 					
 						switch (localStorage.getItem("selection")){
 							case "1":{
@@ -548,7 +560,7 @@ function manager(args) {
             //************** END SPECIFIC PAGE FUNCTIONS ***********//
 
             // scroll to top when loading a new page
-            window.scrollTo(0,200);
+            window.scrollTo(0,0);
         });
    
 
