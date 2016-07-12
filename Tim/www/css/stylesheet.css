@@ -901,6 +901,8 @@ a {
 .assistance {
 	color: white;
 	font-size: 18px;
+	width: 70%;
+	margin: auto;
 }
 
 .assistance div {
@@ -919,10 +921,8 @@ a {
 	float: left;
 	padding-right: 30px;
 	padding-left: 20px;
-}
-
-#asscat {
-	padding-left: 450px;
+	width: 20%;
+	height: auto;
 }
 
 #asscat a {
