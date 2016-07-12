@@ -266,10 +266,6 @@ a {
 	background-color: #F5585B;
 }
 
-#scopri {
-	padding-left: 50%;
-}
-
 .smartlifeHome {
 	width: 70%;
 	color: white;
@@ -277,7 +273,7 @@ a {
 }
 
 .smartlifeHome img {
-	width: 70%;
+	width: 90%;
 	height: auto;
 }
 #sltitle, #tvent, #cef, #seb, #sap {
@@ -435,12 +431,12 @@ a {
 	float: left;
 	padding-right: 5%;
 	padding-left: 3%;
+	display: none;
 }
 
 #teimg {
 	margin-top: 3%;
 	margin-bottom: 2%;
-	width: 70%;
 }
 
 .tvsertimv, .tvsertims, .musicser, .readingser, .gamingser {
@@ -448,7 +444,7 @@ a {
 }
 
 #tvislogo, #tskylogo, #tmuslogo, #trealogo, #tgamlogo, #tsealogo {
-	width: 20%;
+	width: 50%;
 	height: auto;
 }
 
