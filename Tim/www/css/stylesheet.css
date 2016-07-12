@@ -347,28 +347,19 @@ a {
 	color:white;
 	font-size: 15px;
 	padding-left: 30px;
+	width: 70%;
+	margin: auto;
 }
 
-#wwavideo {
-	padding-left: 130px;
-	width: 456px;
-	height: 272px;
-	margin-top: 20px;
-	
-}
 
 .whoweare h3 {
 	font-size: 18px;
 }
 
 #meeting {
-	padding-left: 130px;
-	width: 479px;
-	height: 184px;
+	width: 70%;
+	height: auto;
 	margin-top: 20px;
-}
-#meetingtxt {
-	padding-left: 170px;
 }
 
 #valori {
@@ -382,30 +373,12 @@ a {
 	font-style: italic;
 }
 
-#val1img {
-	float: left;
-	padding-right: 20px;
+#val1img, #val2img, #val3img, #val4img {
 	padding-top: 20px;
+	width: 50%;
+	height: auto;
 }
 
-#val2img{
-	float: right;
-	padding-right: 60px;
-	padding-top: 20px;
-}
-
-
-#val3img {
-	float: left;
-	padding-top: 20px;
-	padding-right: 20px;
-}
-
-#val4img {
-	float: right;
-	padding-top: 20px;
-	padding-right: 60px;
-}
 
 .whoweare p {
 	padding-top:20px;
