@@ -478,7 +478,7 @@ a {
 	padding-left:7px;
 	width:40%;
 	margin:0 auto;	
-	background-color: #3366FF;
+	background-color: #3366FF;;
 	color: white;
 	border: solid 2px white;
 	display: block;
@@ -1221,7 +1221,7 @@ a {
 .supportoconf {
 	font-size: 16px;
 	color: white;
-	width: 70%;
+	width: 95%;
 	margin: auto;
 }
 
@@ -1244,6 +1244,7 @@ a {
 	border-color: white;
 	margin-bottom: 20px;
 	margin-right: 50px;
+	text-align: center;
 }
 
 .supportoconf legend {
@@ -1277,9 +1278,12 @@ a {
 .asspage {
 	font-size: 16px;
 	color: white;
+	width: 95%;
 }
 .asspage fieldset {
-	border-radius: 10px;
+	border-radius: 2%;
+	width: 90%;
+	overflow-x: scroll;
 }
 .asspage a {
 	color: white;
@@ -1295,7 +1299,7 @@ a {
 	margin-bottom: 10px;
 }
 #assdispf img {
-	width: 104px;
+	width: 60%;
 	height: auto;
 	
 }
