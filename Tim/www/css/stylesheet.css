@@ -98,7 +98,7 @@ a {
 
 
 .blueland {
-	padding-left:7px;
+	padding-left:10px;
 }
 
 .blueland a:link, .blueland a:visited {
@@ -409,6 +409,8 @@ a {
 #teimg {
 	margin-top: 3%;
 	margin-bottom: 2%;
+	width:100%;
+	height:100px;
 }
 
 .tvsertimv, .tvsertims, .musicser, .readingser, .gamingser {
@@ -1018,6 +1020,8 @@ a {
 	padding: 7px 20px 7px 20px;
 	background-color: #99FFFF;
 	border: solid 2px #3366FF;
+	margin-left: 10%;
+	margin-bottom:50px;
 }
 
 #attiva a:hover {
@@ -1029,6 +1033,14 @@ a {
 
 #dispvis1 {
 	margin-bottom: 8%;
+	width:100px;
+	margin: 0 auto;
+}
+
+#dispvis2 {
+	margin-bottom: 8%;
+	width:100px;
+	margin: 0 auto;
 }
 
 /****************************/
@@ -1069,6 +1081,7 @@ a {
 #costiset p {
 	color: black;
 	font-size: 13px;
+	text-align:center;
 
 }
 
@@ -1105,6 +1118,10 @@ a {
 	display: none;
 }
 
+#divcostiind{
+	margin: 0px auto;
+	width: 175px;
+}
 
 #costoind, #costoindf {
 	background-color: #F50733;
@@ -1135,6 +1152,7 @@ a {
 	background-color: #F50733;
 	border: solid 1px black;
 	padding: 7px 15px 7px 15px;
+	margin-bottom:50px;
 	
 }
 #clickactive a:hover {
@@ -1204,6 +1222,7 @@ a {
 	border: solid 1px black;
 	width: 223px;
 	height: 36px;
+	margin-bottom:50px;
 }
 
 .conferma a:hover {

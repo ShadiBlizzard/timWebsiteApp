@@ -98,7 +98,7 @@ a {
 
 
 .blueland {
-	padding-left:7px;
+	padding-left:10px;
 }
 
 .blueland a:link, .blueland a:visited {
@@ -409,6 +409,8 @@ a {
 #teimg {
 	margin-top: 3%;
 	margin-bottom: 2%;
+	width:100%;
+	height:100px;
 }
 
 .tvsertimv, .tvsertims, .musicser, .readingser, .gamingser {
@@ -970,7 +972,8 @@ a {
 
 .timvision fieldset {
 	width: 90%;
-	overflow-x: scroll;
+	height: 40%;
+	overflow-y: scroll;
 }
 
 .timvision h3 {
@@ -1017,6 +1020,8 @@ a {
 	padding: 7px 20px 7px 20px;
 	background-color: #99FFFF;
 	border: solid 2px #3366FF;
+	margin-left: 10%;
+	margin-bottom:50px;
 }
 
 #attiva a:hover {
@@ -1027,9 +1032,15 @@ a {
 
 
 #dispvis1 {
-	float: left;
-	margin-left: 240px;
-	margin-right: 80px;
+	margin-bottom: 8%;
+	width:100px;
+	margin: 0 auto;
+}
+
+#dispvis2 {
+	margin-bottom: 8%;
+	width:100px;
+	margin: 0 auto;
 }
 
 /****************************/
@@ -1039,6 +1050,10 @@ a {
 	color: white;
 	font-size: 16px;
 	width: 95%;
+	margin: auto;
+}
+.actrules hr{
+	display: none;
 }
 
 #logovis {
@@ -1055,34 +1070,36 @@ a {
 }
 
 #costiset {
+	width: 90%;
+	height: auto;
 	border-radius: 2%;
 	border-color: white;
 	background-color: #FF8175;
-	overflow-x: scroll;
 	
 }
 
 #costiset p {
 	color: black;
 	font-size: 13px;
+	text-align:center;
 
 }
 
-#p1, #p2, #p5, #p6 {
-	float:left;
-}
-
-#p1, #p5 {
+#p1 {
 	padding-left: 2%;
+	display: none;
 }
 #p5 {
 	padding-right: 8%;
+	display: none;
 }
 #p2 {
 	padding-left: 4%;
+	display: none;
 }
 #p6 {
 	padding-left: 8,5%;
+	
 }
 #p3 {
 	padding-left: 15%;
@@ -1101,6 +1118,10 @@ a {
 	display: none;
 }
 
+#divcostiind{
+	margin: 0px auto;
+	width: 175px;
+}
 
 #costoind, #costoindf {
 	background-color: #F50733;
@@ -1131,6 +1152,7 @@ a {
 	background-color: #F50733;
 	border: solid 1px black;
 	padding: 7px 15px 7px 15px;
+	margin-bottom:50px;
 	
 }
 #clickactive a:hover {
@@ -1153,6 +1175,10 @@ a {
 	color: white;
 	font-size: 16px;
 	width: 95%;
+	margin: auto;
+}
+.formreg hr{
+	display: none;
 }
 .formreg a {
 	color: white;
@@ -1196,6 +1222,7 @@ a {
 	border: solid 1px black;
 	width: 223px;
 	height: 36px;
+	margin-bottom:50px;
 }
 
 .conferma a:hover {
@@ -1243,8 +1270,8 @@ a {
 	border-radius: 2% 2% 2% 2%;
 	border-color: white;
 	margin-bottom: 20px;
-	margin-right: 50px;
 	text-align: center;
+	margin: auto;
 }
 
 .supportoconf legend {
@@ -1279,11 +1306,14 @@ a {
 	font-size: 16px;
 	color: white;
 	width: 95%;
+	margin: auto;
 }
 .asspage fieldset {
 	border-radius: 2%;
 	width: 90%;
-	overflow-x: scroll;
+	height: 40%;
+	overflow-y: scroll;
+	text-align: center;
 }
 .asspage a {
 	color: white;
@@ -1305,13 +1335,11 @@ a {
 }
 
 #assdispf {
-	float: left;
 	margin-right: 30px;
 	text-align: center;
+	margin-bottom: 5%;
 }
-.dispf {
-	padding-left: 45px;
-}
+
 
 /***************/
 /*---- BUY ----*/
