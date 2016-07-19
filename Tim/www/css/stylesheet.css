@@ -267,7 +267,7 @@ a {
 }
 
 .smartlifeHome {
-	width: 70%;
+	width: 95%;
 	color: white;
 	margin: auto;
 }
@@ -346,8 +346,7 @@ a {
 .whoweare {
 	color:white;
 	font-size: 15px;
-	padding-left: 30px;
-	width: 70%;
+	width: 95%;
 	margin: auto;
 }
 
@@ -359,29 +358,29 @@ a {
 #meeting {
 	width: 70%;
 	height: auto;
-	margin-top: 20px;
+	margin-top: 7px;
 }
 
 #valori {
-	padding-top: 10px;
+	padding-top: 7px;
 }
 
 .val1, .val2, .val3, .val4 {
-	margin-top:20px;
+	margin-top:7px;
 }
 #val1txt, #val2txt, #val3txt, #val4txt {
 	font-style: italic;
 }
 
 #val1img, #val2img, #val3img, #val4img {
-	padding-top: 20px;
+	padding-top: 7px;
 	width: 50%;
 	height: auto;
 }
 
 
 .whoweare p {
-	padding-top:20px;
+	padding-top:7px;
 }
 #li14 {
 	font-weight:bold;
@@ -417,8 +416,9 @@ a {
 }
 
 #tvislogo, #tskylogo, #tmuslogo, #trealogo, #tgamlogo, #tsealogo {
-	width: 50%;
+	width: 70%;
 	height: auto;
+	margin: auto;
 }
 
 
@@ -874,7 +874,7 @@ a {
 .assistance {
 	color: white;
 	font-size: 18px;
-	width: 70%;
+	width: 95%;
 	margin: auto;
 }
 
@@ -964,6 +964,13 @@ a {
 .timvision {
 	color: white;
 	font-size: 18px;
+	width: 95%;
+	margin: auto;
+}
+
+.timvision fieldset {
+	width: 90%;
+	overflow-x: scroll;
 }
 
 .timvision h3 {
@@ -971,19 +978,16 @@ a {
 }
 
 #logotv {
-	width: 382px;
+	width: 50%;
 	height: auto;
 }
 
-#categoria p{
-	float: left;
-	line-height: 1;
-}
 
 #catimg, #catimg2 {
 	width: 154px;
 	height: auto;
 	padding-left: 30px;
+	display: none;
 }
 
 #tit {
@@ -1008,8 +1012,8 @@ a {
 }
 
 #attiva a:link, #attiva a:visited {
-	width: 234px;
-	height: 40px;
+	width: 80%;
+	height: 10%;
 	padding: 7px 20px 7px 20px;
 	background-color: #99FFFF;
 	border: solid 2px #3366FF;
@@ -1034,6 +1038,16 @@ a {
 .actrules {
 	color: white;
 	font-size: 16px;
+	width: 95%;
+}
+
+#logovis {
+	width: 80%;
+	height: auto;
+}
+
+.not {
+	display: none;
 }
 .actrules a {
 	color: white;
@@ -1041,9 +1055,10 @@ a {
 }
 
 #costiset {
-	border-radius: 10px 10px 10px 10px;
+	border-radius: 2%;
 	border-color: white;
 	background-color: #FF8175;
+	overflow-x: scroll;
 	
 }
 
@@ -1053,36 +1068,39 @@ a {
 
 }
 
-#p1, #p2, #p3, #p5, #p6, #p7 {
+#p1, #p2, #p5, #p6 {
 	float:left;
 }
 
 #p1, #p5 {
-	padding-left: 20px;
+	padding-left: 2%;
+}
+#p5 {
+	padding-right: 8%;
 }
 #p2 {
-	padding-left: 40px;
+	padding-left: 4%;
 }
 #p6 {
-	padding-left: 85px;
+	padding-left: 8,5%;
 }
 #p3 {
-	padding-left: 150px;
+	padding-left: 15%;
+	display: none;
 }
 #p7 {
-	padding-left: 120px;
+	padding-left: 12%;
+	display: none;
 }
 #p4 {
-	padding-left: 200px;
+	padding-left: 20%;
+	display: none;
 }
 #p8 {
-	padding-left: 80px;
+	padding-left: 8%;
+	display: none;
 }
 
-#p4, #p8 {
-	float: left;
-
-}
 
 #costoind, #costoindf {
 	background-color: #F50733;
@@ -1134,6 +1152,7 @@ a {
 .formreg {
 	color: white;
 	font-size: 16px;
+	width: 95%;
 }
 .formreg a {
 	color: white;
@@ -1188,11 +1207,11 @@ a {
 }
 
 #rad1 {
-	margin-left: 50px;
+	margin-left: 5%;
 }
 
 #rad2 {
-	margin-left: 365px;
+	margin-left: 5%;
 }
 
 /**************************/
