@@ -970,7 +970,8 @@ a {
 
 .timvision fieldset {
 	width: 90%;
-	overflow-x: scroll;
+	height: 40%;
+	overflow-y: scroll;
 }
 
 .timvision h3 {
@@ -1027,9 +1028,7 @@ a {
 
 
 #dispvis1 {
-	float: left;
-	margin-left: 240px;
-	margin-right: 80px;
+	margin-bottom: 8%;
 }
 
 /****************************/
@@ -1039,6 +1038,10 @@ a {
 	color: white;
 	font-size: 16px;
 	width: 95%;
+	margin: auto;
+}
+.actrules hr{
+	display: none;
 }
 
 #logovis {
@@ -1055,10 +1058,11 @@ a {
 }
 
 #costiset {
+	width: 90%;
+	height: auto;
 	border-radius: 2%;
 	border-color: white;
 	background-color: #FF8175;
-	overflow-x: scroll;
 	
 }
 
@@ -1068,21 +1072,21 @@ a {
 
 }
 
-#p1, #p2, #p5, #p6 {
-	float:left;
-}
-
-#p1, #p5 {
+#p1 {
 	padding-left: 2%;
+	display: none;
 }
 #p5 {
 	padding-right: 8%;
+	display: none;
 }
 #p2 {
 	padding-left: 4%;
+	display: none;
 }
 #p6 {
 	padding-left: 8,5%;
+	
 }
 #p3 {
 	padding-left: 15%;
@@ -1153,6 +1157,10 @@ a {
 	color: white;
 	font-size: 16px;
 	width: 95%;
+	margin: auto;
+}
+.formreg hr{
+	display: none;
 }
 .formreg a {
 	color: white;
@@ -1243,8 +1251,8 @@ a {
 	border-radius: 2% 2% 2% 2%;
 	border-color: white;
 	margin-bottom: 20px;
-	margin-right: 50px;
 	text-align: center;
+	margin: auto;
 }
 
 .supportoconf legend {
@@ -1279,11 +1287,14 @@ a {
 	font-size: 16px;
 	color: white;
 	width: 95%;
+	margin: auto;
 }
 .asspage fieldset {
 	border-radius: 2%;
 	width: 90%;
-	overflow-x: scroll;
+	height: 40%;
+	overflow-y: scroll;
+	text-align: center;
 }
 .asspage a {
 	color: white;
@@ -1305,13 +1316,11 @@ a {
 }
 
 #assdispf {
-	float: left;
 	margin-right: 30px;
 	text-align: center;
+	margin-bottom: 5%;
 }
-.dispf {
-	padding-left: 45px;
-}
+
 
 /***************/
 /*---- BUY ----*/
